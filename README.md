@@ -4,20 +4,20 @@ This is useful in the very specific scenario where your Wii U gamepad isn't sync
 
 Built using Android Studio
 
-# Instructions
+## Instructions
 
-Step 1: Turn on your Wii U and wait around 2~5 minutes to make sure it booted
+**Step 1:** Turn on your Wii U and wait around 2~5 minutes to make sure it booted
 
-Step 2: While pressing the sync button on the gamepad with the stylus, turn on the gamepad (there should be a menu asking you to insert the code to sync with the Wii U)
+**Step 2:** While pressing the sync button on the gamepad with the stylus, turn on the gamepad (there should be a menu asking you to insert the code to sync with the Wii U)
 
-Step 3: Open this app on your Android phone
+**Step 3:** Open this app on your Android phone
 
-Step 4: On the Wii U, press sync one time, wait 5 seconds (or more if you want to be sure) and press sync a second time
+**Step 4:** On the Wii U, press sync one time, wait 5 seconds (or more if you want to be sure) and press sync a second time
 
-Step 5: Immediately press the start button in the Android app
+**Step 5:** Immediately press the start button in the Android app
 
-Step 6: Go trying the combinations the app gives to you
+**Step 6:**: Go trying the combinations the app gives to you
 
-Step 7: The sync menu disappears after 3 minutes, so if the timer turns red, either wait for the timer to run out and give 5~10 seconds just to be sure, or press the sync button (it should make the Wii U go back to the home menu)
+**Step 7:** The sync menu disappears after 3 minutes, so if the timer turns red, either wait for the timer to run out and give 5~10 seconds just to be sure, or press the sync button (it should make the Wii U go back to the home menu)
 
-Step 8: Reṕeat step 4 to 7 until the gamepad hopefully syncs with the Wii U
+**Step 8:**: Reṕeat step 4 to 7 until the gamepad hopefully syncs with the Wii U
