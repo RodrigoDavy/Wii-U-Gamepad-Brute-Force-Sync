@@ -68,7 +68,7 @@ public class MainActivity extends AppCompatActivity {
 
         TextView timerTextView = (TextView) findViewById(R.id.timer);
         timerTextView.setTextColor(Color.GRAY);
-        
+
         ((Button) v).setText(R.string.reset);
 
         timer.start();

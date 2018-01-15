@@ -14,14 +14,15 @@
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         android:text="1/256"
-        android:textSize="32sp"/>
+        android:textSize="36sp"
+        android:textStyle="bold"/>
 
     <TextView
         android:id="@+id/timer"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
 
-        android:layout_above="@id/reset_timer_button"
+        android:layout_centerInParent="true"
         android:layout_centerHorizontal="true"
 
         android:text="3:00"
@@ -31,8 +32,11 @@
         android:id="@+id/reset_timer_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_above="@id/suits_text_view"
+        android:layout_below="@id/timer"
         android:layout_centerHorizontal="true"
+
+        android:background="@drawable/rounded_button"
+
         android:text="@string/start"
 
         android:onClick="resetTimer"/>
@@ -42,7 +46,8 @@
         android:id="@+id/suits_text_view"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_centerInParent="true"
+        android:layout_above="@id/timer"
+        android:layout_centerHorizontal="true"
         android:padding="16dp"
         android:text="♠	♥ ♦ ♣"
         tools:text="a b c d"
