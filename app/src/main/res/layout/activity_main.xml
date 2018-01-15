@@ -18,6 +18,17 @@
         android:textStyle="bold"/>
 
     <TextView
+        android:id="@+id/suits_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/timer"
+        android:layout_centerHorizontal="true"
+        android:padding="16dp"
+        android:text="♠	♥ ♦ ♣"
+        tools:text="a b c d"
+        android:textSize="60sp"/>
+
+    <TextView
         android:id="@+id/timer"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -35,23 +46,11 @@
         android:layout_below="@id/timer"
         android:layout_centerHorizontal="true"
 
-        android:background="@drawable/rounded_button"
+        android:background="@drawable/rounded_button_small"
 
         android:text="@string/start"
 
         android:onClick="resetTimer"/>
-
-
-    <TextView
-        android:id="@+id/suits_text_view"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_above="@id/timer"
-        android:layout_centerHorizontal="true"
-        android:padding="16dp"
-        android:text="♠	♥ ♦ ♣"
-        tools:text="a b c d"
-        android:textSize="60sp"/>
 
     <Button
         android:layout_width="wrap_content"
