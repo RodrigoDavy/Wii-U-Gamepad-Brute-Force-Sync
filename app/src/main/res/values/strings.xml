@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">Wii U Gamepad Brute Force Sync</string>
+    <string name="next">Next</string>
+    <string name="reset">Reset</string>
+    <string name="restart_sync">Restart the sync menu</string>
+    <string name="start">Start</string>
 </resources>
