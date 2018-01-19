@@ -4,4 +4,5 @@
     <string name="reset">Reset</string>
     <string name="restart_sync">Restart the sync menu</string>
     <string name="start">Start</string>
+    <string name="help">Help</string>
 </resources>

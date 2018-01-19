@@ -1,9 +1,14 @@
 package rodrigodavy.com.github.wiiugamepadbruteforcesync;
 
+import android.content.Intent;
 import android.graphics.Color;
+import android.net.Uri;
 import android.os.CountDownTimer;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.Menu;
+import android.view.MenuInflater;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 import android.widget.Chronometer;
@@ -17,6 +22,7 @@ public class MainActivity extends AppCompatActivity {
     private ArrayList<String> suitList = new ArrayList<>();
     private CountDownTimer timer;
     private int position=0;
+    private Uri helpPage = Uri.parse("https://github.com/RodrigoDavy/Wii-U-Gamepad-Brute-Force-Sync/blob/master/README.md");
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -48,6 +54,31 @@ public class MainActivity extends AppCompatActivity {
             }
 
         };
+    }
+
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        MenuInflater inflater = getMenuInflater();
+        inflater.inflate(R.menu.main_options_menu, menu);
+        return true;
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        switch (item.getItemId()) {
+            case R.id.action_help:
+                Intent intent = new Intent(Intent.ACTION_VIEW,helpPage);
+                if (intent.resolveActivity(getPackageManager()) != null) {
+                    startActivity(intent);
+                }
+                return true;
+
+            default:
+                // If we got here, the user's action was not recognized.
+                // Invoke the superclass to handle it.
+                return super.onOptionsItemSelected(item);
+
+        }
     }
 
     public void next(View v) {
